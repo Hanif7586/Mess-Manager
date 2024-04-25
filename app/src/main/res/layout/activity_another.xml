@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AnotherActivity">
+
+
+    <TextView
+        android:id="@+id/textViewFnamee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fnamee:"/>
+
+    <TextView
+        android:id="@+id/textViewMotmeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="Motmeal:"/>
+
+
+    <TextView
+        android:id="@+id/textViewMotJoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="motjoma:"/>
+
+
+    <TextView
+        android:id="@+id/textViewMealrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="mealrate:"/>
+
+    <TextView
+        android:id="@+id/textViewMotkhoroj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="motkhoroj:"/>
+
+    <TextView
+        android:id="@+id/textViewManagerpabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="pabe:"/>
+    <TextView
+        android:id="@+id/textViewManagerdibe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFnamee"
+        android:text="dibe:"/>
+
+</LinearLayout>

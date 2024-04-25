@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="on_off_options">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+</resources>
